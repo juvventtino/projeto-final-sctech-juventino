@@ -1,0 +1,69 @@
+{
+  "champion_model": "YOLO11n",
+  "justification": "O modelo YOLO11n foi escolhido como arquitetura campeã para a API pois apresenta menor latência de inferência, maior taxa de quadros por segundo (FPS), arquitetura otimizada com blocos C3k2 e C2PSA (melhor atenção espacial em objetos pequenos como semáforos, copos e mochilas) e 100% de cobertura nas 12 classes do dataset.",
+  "finetuning_experiment": {
+    "architecture": "YOLO11n (Transfer Learning / Fine-Tuned)",
+    "epochs": 3,
+    "frozen_layers": 10,
+    "imgsz": 416,
+    "mAP50_val": 0.632,
+    "mAP50_95_val": 0.462,
+    "precision_val": 0.721,
+    "recall_val": 0.591,
+    "weights_path": "models/visionguard12_yolo11n_finetuned.pt"
+  },
+  "benchmark_comparison": [
+    {
+      "model": "YOLO11n",
+      "weights": "yolo11n.pt",
+      "val_images_count": 27,
+      "avg_inference_ms": 40.31,
+      "fps": 24.8,
+      "total_detections_val": 132,
+      "avg_confidence": 0.5668,
+      "classes_detected_count": 12,
+      "total_target_classes": 12,
+      "class_coverage_rate": 1.0,
+      "per_class_detections": {
+        "person": 92,
+        "bicycle": 1,
+        "car": 4,
+        "motorcycle": 4,
+        "bus": 1,
+        "truck": 3,
+        "traffic light": 3,
+        "dog": 5,
+        "backpack": 1,
+        "umbrella": 11,
+        "cup": 3,
+        "chair": 4
+      }
+    },
+    {
+      "model": "YOLOv8n",
+      "weights": "yolov8n.pt",
+      "val_images_count": 27,
+      "avg_inference_ms": 41.26,
+      "fps": 24.2,
+      "total_detections_val": 124,
+      "avg_confidence": 0.5877,
+      "classes_detected_count": 12,
+      "total_target_classes": 12,
+      "class_coverage_rate": 1.0,
+      "per_class_detections": {
+        "person": 87,
+        "bicycle": 1,
+        "car": 4,
+        "motorcycle": 2,
+        "bus": 2,
+        "truck": 2,
+        "traffic light": 2,
+        "dog": 6,
+        "backpack": 1,
+        "umbrella": 10,
+        "cup": 2,
+        "chair": 5
+      }
+    }
+  ]
+}

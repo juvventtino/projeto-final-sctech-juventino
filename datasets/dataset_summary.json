@@ -1,0 +1,163 @@
+{
+  "dataset_name": "VisionGuard-12 (Urban & Daily Objects Subset)",
+  "source": "COCO128 (Ultralytics / MS-COCO)",
+  "num_classes": 12,
+  "total_filtered_images": 83,
+  "train_images": 83,
+  "val_images": 27,
+  "total_annotations": 448,
+  "classes": [
+    {
+      "id": 0,
+      "coco_id": 0,
+      "name": "person",
+      "description_pt": "Pessoa / Pedestre",
+      "instances": 254,
+      "images_count": 61
+    },
+    {
+      "id": 1,
+      "coco_id": 1,
+      "name": "bicycle",
+      "description_pt": "Bicicleta",
+      "instances": 6,
+      "images_count": 3
+    },
+    {
+      "id": 2,
+      "coco_id": 2,
+      "name": "car",
+      "description_pt": "Carro",
+      "instances": 46,
+      "images_count": 12
+    },
+    {
+      "id": 3,
+      "coco_id": 3,
+      "name": "motorcycle",
+      "description_pt": "Motocicleta",
+      "instances": 5,
+      "images_count": 4
+    },
+    {
+      "id": 4,
+      "coco_id": 5,
+      "name": "bus",
+      "description_pt": "Ônibus",
+      "instances": 7,
+      "images_count": 5
+    },
+    {
+      "id": 5,
+      "coco_id": 7,
+      "name": "truck",
+      "description_pt": "Caminhão",
+      "instances": 12,
+      "images_count": 5
+    },
+    {
+      "id": 6,
+      "coco_id": 9,
+      "name": "traffic light",
+      "description_pt": "Semáforo",
+      "instances": 14,
+      "images_count": 4
+    },
+    {
+      "id": 7,
+      "coco_id": 16,
+      "name": "dog",
+      "description_pt": "Cachorro",
+      "instances": 9,
+      "images_count": 9
+    },
+    {
+      "id": 8,
+      "coco_id": 24,
+      "name": "backpack",
+      "description_pt": "Mochila",
+      "instances": 6,
+      "images_count": 4
+    },
+    {
+      "id": 9,
+      "coco_id": 25,
+      "name": "umbrella",
+      "description_pt": "Guarda-chuva",
+      "instances": 18,
+      "images_count": 4
+    },
+    {
+      "id": 10,
+      "coco_id": 41,
+      "name": "cup",
+      "description_pt": "Copo / Xícara",
+      "instances": 36,
+      "images_count": 10
+    },
+    {
+      "id": 11,
+      "coco_id": 56,
+      "name": "chair",
+      "description_pt": "Cadeira",
+      "instances": 35,
+      "images_count": 9
+    }
+  ],
+  "samples": [
+    {
+      "file": "samples/sample_01_000000000257.jpg",
+      "classes_present": [
+        "backpack",
+        "person",
+        "traffic light",
+        "truck"
+      ],
+      "num_annotations": 29
+    },
+    {
+      "file": "samples/sample_02_000000000074.jpg",
+      "classes_present": [
+        "bicycle",
+        "dog",
+        "person"
+      ],
+      "num_annotations": 8
+    },
+    {
+      "file": "samples/sample_03_000000000260.jpg",
+      "classes_present": [
+        "bus",
+        "car",
+        "person"
+      ],
+      "num_annotations": 4
+    },
+    {
+      "file": "samples/sample_04_000000000359.jpg",
+      "classes_present": [
+        "car",
+        "traffic light"
+      ],
+      "num_annotations": 4
+    },
+    {
+      "file": "samples/sample_05_000000000315.jpg",
+      "classes_present": [
+        "chair",
+        "person",
+        "umbrella"
+      ],
+      "num_annotations": 35
+    },
+    {
+      "file": "samples/sample_06_000000000110.jpg",
+      "classes_present": [
+        "chair",
+        "cup",
+        "person"
+      ],
+      "num_annotations": 18
+    }
+  ]
+}
