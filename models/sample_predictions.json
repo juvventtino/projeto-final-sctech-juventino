@@ -1,0 +1,706 @@
+[
+  {
+    "sample_image": "samples/sample_01_000000000257.jpg",
+    "num_detections": 16,
+    "classes_detected": [
+      "backpack",
+      "motorcycle",
+      "person",
+      "truck"
+    ],
+    "response_payload": {
+      "status": "success",
+      "detections": [
+        {
+          "class_name": "truck",
+          "confidence": 0.79,
+          "box": {
+            "x_min": 251,
+            "y_min": 277,
+            "x_max": 455,
+            "y_max": 401
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.68,
+          "box": {
+            "x_min": 147,
+            "y_min": 346,
+            "x_max": 207,
+            "y_max": 480
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.66,
+          "box": {
+            "x_min": 290,
+            "y_min": 335,
+            "x_max": 322,
+            "y_max": 415
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.65,
+          "box": {
+            "x_min": 237,
+            "y_min": 328,
+            "x_max": 265,
+            "y_max": 407
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.6,
+          "box": {
+            "x_min": 315,
+            "y_min": 334,
+            "x_max": 339,
+            "y_max": 412
+          }
+        },
+        {
+          "class_name": "truck",
+          "confidence": 0.56,
+          "box": {
+            "x_min": 519,
+            "y_min": 250,
+            "x_max": 639,
+            "y_max": 480
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.55,
+          "box": {
+            "x_min": 78,
+            "y_min": 325,
+            "x_max": 100,
+            "y_max": 376
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.53,
+          "box": {
+            "x_min": 261,
+            "y_min": 330,
+            "x_max": 282,
+            "y_max": 401
+          }
+        },
+        {
+          "class_name": "backpack",
+          "confidence": 0.46,
+          "box": {
+            "x_min": 183,
+            "y_min": 357,
+            "x_max": 226,
+            "y_max": 418
+          }
+        },
+        {
+          "class_name": "motorcycle",
+          "confidence": 0.46,
+          "box": {
+            "x_min": 100,
+            "y_min": 415,
+            "x_max": 171,
+            "y_max": 480
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.43,
+          "box": {
+            "x_min": 214,
+            "y_min": 331,
+            "x_max": 239,
+            "y_max": 399
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.38,
+          "box": {
+            "x_min": 470,
+            "y_min": 328,
+            "x_max": 482,
+            "y_max": 357
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.37,
+          "box": {
+            "x_min": 138,
+            "y_min": 326,
+            "x_max": 152,
+            "y_max": 362
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.32,
+          "box": {
+            "x_min": 584,
+            "y_min": 327,
+            "x_max": 599,
+            "y_max": 368
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.31,
+          "box": {
+            "x_min": 223,
+            "y_min": 330,
+            "x_max": 239,
+            "y_max": 399
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.27,
+          "box": {
+            "x_min": 189,
+            "y_min": 330,
+            "x_max": 211,
+            "y_max": 371
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sample_image": "samples/sample_02_000000000074.jpg",
+    "num_detections": 9,
+    "classes_detected": [
+      "bicycle",
+      "dog",
+      "person"
+    ],
+    "response_payload": {
+      "status": "success",
+      "detections": [
+        {
+          "class_name": "dog",
+          "confidence": 0.92,
+          "box": {
+            "x_min": 64,
+            "y_min": 276,
+            "x_max": 357,
+            "y_max": 380
+          }
+        },
+        {
+          "class_name": "bicycle",
+          "confidence": 0.54,
+          "box": {
+            "x_min": 1,
+            "y_min": 5,
+            "x_max": 163,
+            "y_max": 326
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.54,
+          "box": {
+            "x_min": 325,
+            "y_min": 96,
+            "x_max": 341,
+            "y_max": 148
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.47,
+          "box": {
+            "x_min": 295,
+            "y_min": 95,
+            "x_max": 316,
+            "y_max": 153
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.43,
+          "box": {
+            "x_min": 276,
+            "y_min": 98,
+            "x_max": 293,
+            "y_max": 148
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.33,
+          "box": {
+            "x_min": 353,
+            "y_min": 94,
+            "x_max": 372,
+            "y_max": 148
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.31,
+          "box": {
+            "x_min": 358,
+            "y_min": 101,
+            "x_max": 371,
+            "y_max": 148
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.28,
+          "box": {
+            "x_min": 461,
+            "y_min": 105,
+            "x_max": 494,
+            "y_max": 149
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.28,
+          "box": {
+            "x_min": 273,
+            "y_min": 94,
+            "x_max": 291,
+            "y_max": 149
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sample_image": "samples/sample_03_000000000260.jpg",
+    "num_detections": 3,
+    "classes_detected": [
+      "bus",
+      "car",
+      "person"
+    ],
+    "response_payload": {
+      "status": "success",
+      "detections": [
+        {
+          "class_name": "person",
+          "confidence": 0.75,
+          "box": {
+            "x_min": 260,
+            "y_min": 101,
+            "x_max": 315,
+            "y_max": 313
+          }
+        },
+        {
+          "class_name": "bus",
+          "confidence": 0.63,
+          "box": {
+            "x_min": 0,
+            "y_min": 90,
+            "x_max": 66,
+            "y_max": 253
+          }
+        },
+        {
+          "class_name": "car",
+          "confidence": 0.57,
+          "box": {
+            "x_min": 239,
+            "y_min": 175,
+            "x_max": 271,
+            "y_max": 192
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sample_image": "samples/sample_04_000000000359.jpg",
+    "num_detections": 4,
+    "classes_detected": [
+      "car",
+      "traffic light"
+    ],
+    "response_payload": {
+      "status": "success",
+      "detections": [
+        {
+          "class_name": "traffic light",
+          "confidence": 0.73,
+          "box": {
+            "x_min": 245,
+            "y_min": 100,
+            "x_max": 296,
+            "y_max": 122
+          }
+        },
+        {
+          "class_name": "traffic light",
+          "confidence": 0.61,
+          "box": {
+            "x_min": 407,
+            "y_min": 101,
+            "x_max": 461,
+            "y_max": 141
+          }
+        },
+        {
+          "class_name": "traffic light",
+          "confidence": 0.52,
+          "box": {
+            "x_min": 154,
+            "y_min": 101,
+            "x_max": 220,
+            "y_max": 136
+          }
+        },
+        {
+          "class_name": "car",
+          "confidence": 0.45,
+          "box": {
+            "x_min": 1,
+            "y_min": 291,
+            "x_max": 126,
+            "y_max": 331
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sample_image": "samples/sample_05_000000000315.jpg",
+    "num_detections": 18,
+    "classes_detected": [
+      "chair",
+      "person",
+      "umbrella"
+    ],
+    "response_payload": {
+      "status": "success",
+      "detections": [
+        {
+          "class_name": "person",
+          "confidence": 0.82,
+          "box": {
+            "x_min": 340,
+            "y_min": 140,
+            "x_max": 400,
+            "y_max": 342
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.74,
+          "box": {
+            "x_min": 482,
+            "y_min": 148,
+            "x_max": 542,
+            "y_max": 335
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.73,
+          "box": {
+            "x_min": 116,
+            "y_min": 219,
+            "x_max": 210,
+            "y_max": 395
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.73,
+          "box": {
+            "x_min": 0,
+            "y_min": 137,
+            "x_max": 81,
+            "y_max": 244
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.61,
+          "box": {
+            "x_min": 180,
+            "y_min": 370,
+            "x_max": 286,
+            "y_max": 427
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.57,
+          "box": {
+            "x_min": 0,
+            "y_min": 97,
+            "x_max": 258,
+            "y_max": 235
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.49,
+          "box": {
+            "x_min": 284,
+            "y_min": 114,
+            "x_max": 368,
+            "y_max": 139
+          }
+        },
+        {
+          "class_name": "chair",
+          "confidence": 0.46,
+          "box": {
+            "x_min": 277,
+            "y_min": 319,
+            "x_max": 331,
+            "y_max": 399
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.44,
+          "box": {
+            "x_min": 193,
+            "y_min": 115,
+            "x_max": 317,
+            "y_max": 192
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.42,
+          "box": {
+            "x_min": 574,
+            "y_min": 197,
+            "x_max": 612,
+            "y_max": 237
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.36,
+          "box": {
+            "x_min": 467,
+            "y_min": 107,
+            "x_max": 530,
+            "y_max": 124
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.34,
+          "box": {
+            "x_min": 534,
+            "y_min": 170,
+            "x_max": 572,
+            "y_max": 223
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.32,
+          "box": {
+            "x_min": 283,
+            "y_min": 114,
+            "x_max": 413,
+            "y_max": 169
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.3,
+          "box": {
+            "x_min": 278,
+            "y_min": 128,
+            "x_max": 346,
+            "y_max": 181
+          }
+        },
+        {
+          "class_name": "chair",
+          "confidence": 0.29,
+          "box": {
+            "x_min": 22,
+            "y_min": 237,
+            "x_max": 138,
+            "y_max": 343
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.28,
+          "box": {
+            "x_min": 422,
+            "y_min": 46,
+            "x_max": 463,
+            "y_max": 135
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.27,
+          "box": {
+            "x_min": 284,
+            "y_min": 114,
+            "x_max": 396,
+            "y_max": 141
+          }
+        },
+        {
+          "class_name": "umbrella",
+          "confidence": 0.25,
+          "box": {
+            "x_min": 376,
+            "y_min": 133,
+            "x_max": 427,
+            "y_max": 157
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sample_image": "samples/sample_06_000000000110.jpg",
+    "num_detections": 12,
+    "classes_detected": [
+      "chair",
+      "cup",
+      "person"
+    ],
+    "response_payload": {
+      "status": "success",
+      "detections": [
+        {
+          "class_name": "person",
+          "confidence": 0.92,
+          "box": {
+            "x_min": 0,
+            "y_min": 128,
+            "x_max": 250,
+            "y_max": 415
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.91,
+          "box": {
+            "x_min": 211,
+            "y_min": 1,
+            "x_max": 639,
+            "y_max": 476
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.78,
+          "box": {
+            "x_min": 342,
+            "y_min": 1,
+            "x_max": 413,
+            "y_max": 93
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.78,
+          "box": {
+            "x_min": 253,
+            "y_min": 0,
+            "x_max": 382,
+            "y_max": 140
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.7,
+          "box": {
+            "x_min": 0,
+            "y_min": 1,
+            "x_max": 125,
+            "y_max": 167
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.32,
+          "box": {
+            "x_min": 146,
+            "y_min": 1,
+            "x_max": 218,
+            "y_max": 83
+          }
+        },
+        {
+          "class_name": "chair",
+          "confidence": 0.32,
+          "box": {
+            "x_min": 241,
+            "y_min": 134,
+            "x_max": 301,
+            "y_max": 188
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.29,
+          "box": {
+            "x_min": 132,
+            "y_min": 0,
+            "x_max": 159,
+            "y_max": 54
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.28,
+          "box": {
+            "x_min": 403,
+            "y_min": 0,
+            "x_max": 441,
+            "y_max": 84
+          }
+        },
+        {
+          "class_name": "cup",
+          "confidence": 0.28,
+          "box": {
+            "x_min": 186,
+            "y_min": 80,
+            "x_max": 204,
+            "y_max": 98
+          }
+        },
+        {
+          "class_name": "chair",
+          "confidence": 0.25,
+          "box": {
+            "x_min": 176,
+            "y_min": 139,
+            "x_max": 238,
+            "y_max": 209
+          }
+        },
+        {
+          "class_name": "person",
+          "confidence": 0.25,
+          "box": {
+            "x_min": 224,
+            "y_min": 0,
+            "x_max": 276,
+            "y_max": 83
+          }
+        }
+      ]
+    }
+  }
+]
