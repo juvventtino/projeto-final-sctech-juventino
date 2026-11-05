@@ -4,7 +4,7 @@
   "num_classes": 12,
   "total_filtered_images": 83,
   "train_images": 83,
-  "val_images": 25,
+  "val_images": 27,
   "total_annotations": 448,
   "classes": [
     {
@@ -116,17 +116,33 @@
       "num_annotations": 29
     },
     {
-      "file": "samples/sample_02_000000000540.jpg",
+      "file": "samples/sample_02_000000000074.jpg",
+      "classes_present": [
+        "bicycle",
+        "dog",
+        "person"
+      ],
+      "num_annotations": 8
+    },
+    {
+      "file": "samples/sample_03_000000000260.jpg",
       "classes_present": [
         "bus",
         "car",
-        "traffic light",
-        "truck"
+        "person"
       ],
-      "num_annotations": 19
+      "num_annotations": 4
     },
     {
-      "file": "samples/sample_03_000000000315.jpg",
+      "file": "samples/sample_04_000000000359.jpg",
+      "classes_present": [
+        "car",
+        "traffic light"
+      ],
+      "num_annotations": 4
+    },
+    {
+      "file": "samples/sample_05_000000000315.jpg",
       "classes_present": [
         "chair",
         "person",
@@ -135,31 +151,13 @@
       "num_annotations": 35
     },
     {
-      "file": "samples/sample_04_000000000110.jpg",
+      "file": "samples/sample_06_000000000110.jpg",
       "classes_present": [
         "chair",
         "cup",
         "person"
       ],
       "num_annotations": 18
-    },
-    {
-      "file": "samples/sample_05_000000000113.jpg",
-      "classes_present": [
-        "chair",
-        "cup",
-        "person"
-      ],
-      "num_annotations": 15
-    },
-    {
-      "file": "samples/sample_06_000000000641.jpg",
-      "classes_present": [
-        "bicycle",
-        "bus",
-        "person"
-      ],
-      "num_annotations": 12
     }
   ]
 }
