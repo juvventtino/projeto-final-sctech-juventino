@@ -107,11 +107,19 @@ def prepare_visionguard12() -> dict:
 
     # Copia todas as imagens filtradas para train e seleciona um subconjunto representativo
     # para validação cobrindo todas as 12 classes
+    curated_sample_stems = {
+        "000000000257",
+        "000000000074",
+        "000000000260",
+        "000000000359",
+        "000000000315",
+        "000000000110",
+    }
     val_indices: set[int] = set()
     covered_classes: set[int] = set()
 
-    for idx, (_, _, present_cls) in enumerate(valid_records):
-        if len( present_cls - covered_classes ) > 0:
+    for idx, (img_path, _, present_cls) in enumerate(valid_records):
+        if img_path.stem in curated_sample_stems or len(present_cls - covered_classes) > 0:
             val_indices.add(idx)
             covered_classes.update(present_cls)
         elif idx % 4 == 0:
@@ -130,12 +138,20 @@ def prepare_visionguard12() -> dict:
             shutil.copy2(img_path, dst_val_img)
             dst_val_lbl.write_text("\n".join(remapped_lines) + "\n", encoding="utf-8")
 
-    # Seleciona as 6 imagens com maior diversidade de classes para a pasta samples/
-    ranked_samples = sorted(
-        valid_records,
-        key=lambda item: (len(item[2]), len(item[1])),
-        reverse=True,
-    )[:6]
+    # Seleciona as 6 imagens variadas que cobrem 100% das 12 classes para a pasta samples/
+    for old_sample in SAMPLES_DIR.glob("*.jpg"):
+        old_sample.unlink()
+
+    ordered_stems = [
+        "000000000257",
+        "000000000074",
+        "000000000260",
+        "000000000359",
+        "000000000315",
+        "000000000110",
+    ]
+    record_by_stem = {item[0].stem: item for item in valid_records}
+    ranked_samples = [record_by_stem[s] for s in ordered_stems if s in record_by_stem]
 
     sample_files: list[dict] = []
     for i, (img_path, remapped_lines, present_cls) in enumerate(ranked_samples, start=1):
