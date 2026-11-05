@@ -16,7 +16,12 @@ env/
 
 # Raw cache / large external downloads
 datasets/coco128/
+datasets/coco128.zip
+datasets/visionguard12/images/
+datasets/visionguard12/labels/*.cache
 runs/
+*.pt
+!models/*.pt
 
 # Local instruction file
 projeto final*.pdf
