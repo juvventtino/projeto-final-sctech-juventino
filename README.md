@@ -125,7 +125,7 @@ projeto-final-sctech-juventino/
 
 ```bash
 # 1. Clone o repositório
-git clone <URL_DO_SEU_REPOSITORIO_GITHUB>
+git clone https://github.com/juvventtino/projeto-final-sctech-juventino.git
 cd projeto-final-sctech-juventino
 
 # 2. Crie e ative o ambiente virtual
