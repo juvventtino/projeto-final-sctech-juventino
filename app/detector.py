@@ -16,6 +16,10 @@ os.environ.setdefault("YOLO_CONFIG_DIR", "/tmp/ultralytics_config")
 
 from PIL import Image, UnidentifiedImageError
 from ultralytics import YOLO
+import ultralytics.utils.patches as _ultralytics_patches
+
+# Evita que o monkey-patch do Ultralytics tente instalar pi-heif ao receber arquivos inválidos
+_ultralytics_patches._pil_plugins_registered = True
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_WEIGHTS_PATH = PROJECT_ROOT / "models" / "yolo11n.pt"
