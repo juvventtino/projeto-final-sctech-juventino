@@ -1,0 +1,17 @@
+path: /Users/juve/projeto-final-sctech-juventino/datasets/visionguard12
+train: images/train
+val: images/val
+nc: 12
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: bus
+  5: truck
+  6: traffic light
+  7: dog
+  8: backpack
+  9: umbrella
+  10: cup
+  11: chair
