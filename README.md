@@ -229,7 +229,7 @@ pytest -v
 ### 7.1. Quadro Kanban no Trello
 O planejamento e acompanhamento das tarefas seguiu o fluxo Kanban com as listas **Backlog**, **To Do**, **Doing**, **Blocked**, **Review** e **Done**, fazendo paralelo direto com as *feature branches* do GitFlow.
 
-- **Link Público do Quadro no Trello:** `[INSIRA_AQUI_O_LINK_PUBLICO_DO_SEU_TRELLO]` *(compartilhado também com `welington.souza@edu.sc.senai.br`)*
+- **Link Público do Quadro no Trello:** [SC TEC - Juventino (Trello Kanban)](https://trello.com/invite/b/6af223c97f5116f655207977/ATTId9ea7b54864ce857bd8e5c48e87b0cecA034D85E/sc-tec-juventino) *(acesso direto: `https://trello.com/b/6af223c97f5116f655207977/sc-tec-juventino` — compartilhado também com `welington.souza@edu.sc.senai.br`)*
 - Os detalhes de todos os cards atribuídos ao aluno (**Juventino**) e suas especificações técnicas estão documentados em [`docs/TRELLO_E_ROTEIRO_VIDEO.md`](docs/TRELLO_E_ROTEIRO_VIDEO.md).
 
 ### 7.2. Estrutura de Branches (GitFlow)
